@@ -1,0 +1,58 @@
+/* src/components/MovieCard.css */
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s; 
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+}
+
+.movie-card img {
+    width: 100%;
+    border-bottom: 1px solid #ccc; 
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+}
+
+.movie-card p {
+    margin: 10px; 
+}
+
+
+.movie-card span {
+    cursor: pointer;
+    color: blue; 
+    text-decoration: underline;
+}
+
+.movie-card span:hover {
+    text-decoration: none; 
+}
+
+
+.favorite-button {
+    background-color: #28a745; 
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.favorite-button:hover {
+    background-color: #218838; 
+}
+
+
+.favorite-button.favorited {
+    background-color: #ffcc00; 
+    cursor: default; 
+}

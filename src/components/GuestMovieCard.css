@@ -1,0 +1,36 @@
+/* src/components/GuestMovieCard.css */
+.movie-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s; /* Add a slight hover effect */
+}
+
+.movie-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.movie-card img {
+    width: 100%;
+    border-bottom: 1px solid #ccc; /* Add a border below the image */
+}
+
+.movie-card h3 {
+    margin: 10px 0; /* Add some margin to the title */
+}
+
+.movie-card p {
+    margin: 10px; /* Add some margin to the overview text */
+}
+
+/* Style for the Read More / Read Less link */
+.movie-card span {
+    cursor: pointer;
+    color: blue; /* Color for the clickable text */
+    text-decoration: underline; /* Underline to indicate it's clickable */
+}
+
+.movie-card span:hover {
+    text-decoration: none; /* Remove underline on hover for a cleaner look */
+}
