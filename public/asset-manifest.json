@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/delliadeltania02/static/css/main.e84d204b.css",
+    "main.js": "/delliadeltania02/static/js/main.ac81eabf.js",
+    "static/media/background.jpg": "/delliadeltania02/static/media/background.282699de8fbd7c466140.jpg",
+    "index.html": "/delliadeltania02/index.html",
+    "main.e84d204b.css.map": "/delliadeltania02/static/css/main.e84d204b.css.map",
+    "main.ac81eabf.js.map": "/delliadeltania02/static/js/main.ac81eabf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e84d204b.css",
+    "static/js/main.ac81eabf.js"
+  ]
+}
